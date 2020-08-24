@@ -1,0 +1,40 @@
+.unbond-page {
+  padding: 20px;
+  .form {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    box-sizing: border-box;
+
+    span {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+
+    i {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 17px;
+      color: #9598AB;
+    }
+
+    input {
+      width: 100%;
+      padding: 16px 20px;
+      background: transparent;
+      border: 0.5px solid #43454F;
+      border-radius: 8px;
+      font-size: 13px;
+      line-height: 19px;
+      color: #9598AB;
+      text-align: left;
+      outline: none;
+    }
+
+  }
+}

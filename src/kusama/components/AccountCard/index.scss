@@ -1,0 +1,204 @@
+.account-card {
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px 0 #00000019;
+  .account-top  {
+    padding: 15px 20px 25px 20px;
+    background-color: #fafbfc;
+    border-radius: 4px 4px 0 0;
+    overflow: hidden;
+    background: #2C2C2C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .account-top-address {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      strong {
+        margin-bottom: 8px;
+        font-size: 15px;
+        font-weight: normal;
+        letter-spacing: 0;
+        color: #ffffff;
+      }
+      span {
+        overflow: hidden;
+        font-family: 'PingFang SC';
+        font-size: 13px;
+        color: #9598AB;
+        opacity: 0.5;
+      }
+      .loading-account {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        span {
+          margin-left: 4px;
+        }
+      }
+    }
+    .account-top-amount {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: right;
+      strong {
+        margin-bottom: 8px;
+        white-space: nowrap;
+          font-size: 17px;
+          font-weight: bold;
+          font-style: normal;
+          color: #ffffff;
+        }
+      span  {
+        font-size: 13px;
+        font-weight: 300;
+        letter-spacing: 0.1px;
+        color: #9598AB;
+        opacity: 0.5;
+      }
+    }
+  }
+  .account-bottom {
+    margin-top: -10px;
+    overflow: hidden;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 0 2px 8px 0 #00000019;
+    background-color: #ffffff;
+
+    .split-line {
+      height: 0px;
+      margin: 10px 0;
+      border-bottom: solid 0.5px #f0f2f8;
+    }
+    .account-balance {
+      padding: 15px 20px;
+      > div  {
+        display: flex;
+        > div:first-child {
+          width: 204px;
+          text-align: left;
+        }
+      }
+      span {
+        display: block;
+        margin-bottom: 2px;
+        font-family: 'PingFang SC';
+        font-size: 11px;
+        color: #9598AB;
+      }
+      i {
+          font-size: 17px;
+          font-style: normal;
+          color: #191c1e;
+      }
+    }
+
+    &.unfolded {
+      background: #2C2C2C;
+      border-radius: 0 0 4px 4px;
+
+      .split-line {
+        border-bottom: 0.5px solid #43454F;
+      }
+      .account-balance {
+        border-radius: 0 0 4px 4px;
+        i {
+          color: white;
+        }
+      }
+    }
+  }
+
+  .unfold {
+    text-align: center;
+    padding: 10px 2px 4px;
+  }
+
+  .account-details {
+    background-color: white;
+    padding: 10px 0 0 0;
+    border-radius: 0 0 8px 8px;
+    border-top: 0.5px solid #EAECF6;
+
+    .accounts {
+      padding: 0 20px 5px 20px;
+      border-bottom: 0.5px solid #EAECF6;
+      >div{
+        padding: 3px 0;
+        display: flex;
+        flex-wrap: row nowrap;
+        align-items: center;
+        span {
+          display: block;
+          font-family: 'PingFang SC';
+          font-size: 11px;
+          color: #9598AB;
+          line-height: 20px;
+        }
+        i {
+          font-size: 12px;
+          font-style: normal;
+          color: #191C1E;
+          line-height: 20px;
+          margin-left: 14px;
+        }
+      }
+    }
+
+    .reward {
+      display: flex;
+      flex-flow: row wrap;
+      padding: 10px 20px;
+      >div {
+        width: 50%;
+        display: flex;
+        flex-flow: column nowrap;
+        margin-bottom: 10px;
+
+        span {
+          display: block;
+          margin-bottom: 2px;
+          font-family: 'PingFang SC';
+          font-size: 11px;
+          color: #9598AB;
+        }
+        i {
+          font-size: 17px;
+          font-style: normal;
+          color: #191c1e;
+        }
+      }
+    }
+
+    .actions {
+      display: flex;
+      flex-flow: row nowrap;
+      background: #F4F5F6;
+      width: 100%;
+      >div {
+        flex: 1;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0 10px 0;
+
+        span {
+          font-size: 10px;
+          line-height: 15px;
+          color: #9598AB;
+          margin-top: 5px;
+        }
+
+        &.disabled {
+          img {
+            opacity: 0.1;
+          }
+        }
+      }
+    }
+  }
+}

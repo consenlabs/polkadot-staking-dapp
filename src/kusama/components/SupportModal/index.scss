@@ -1,0 +1,30 @@
+.support-modal-inner {
+  background: white;
+  padding-bottom: 0;
+  .modal-content {
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+  .title {
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #191C1E;
+  }
+  .desc {
+    margin-top: 0px;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #9598AB;
+    margin-bottom: 10px;
+  }
+}

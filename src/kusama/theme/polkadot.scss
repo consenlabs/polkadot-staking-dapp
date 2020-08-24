@@ -1,0 +1,180 @@
+.navbar.polkadot {
+  >div {
+    background: #E7E8EA;
+
+    a.selected {
+      background: white;
+
+      span {
+        color: #2C2C2C;
+      }
+    }
+  }
+}
+
+.account-card.polkadot {
+  border-radius: 8px;
+  box-shadow: unset;
+  .account-top {
+    background: #E2318F;
+
+    .account-top-address {
+      span {
+        color: white;
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .account-bottom {
+    box-shadow: unset;
+    border: 1px solid #EAECF6;
+    border-radius: 8px;
+
+    &.unfold {
+      border-radius: 8px 8px 0 0;
+      border-bottom: 0;
+    }
+  }
+
+  .account-details {
+    box-shadow: unset;
+    border: 1px solid #EAECF6;
+
+    >.unfold {
+      border-radius: 0 0 8px 8px; 
+    }
+  }
+}
+
+.toolbar.polkadot {
+  .toolbar-row {
+    background: white;
+    .btn {
+      background: #E2318F;
+    }
+  }
+}
+
+.validator.polkadot {
+  .validator-rank-badge {
+    background: black !important;
+  }
+}
+
+.bond-page.polkadot, .unbond-page.polkadot {
+  .form {
+    &:first-child {
+      border-bottom: 0.5px solid #EAECF6;
+    }
+    span {
+      color: #191C1E;
+    }
+    i {
+      color: #9598AB;
+    }
+    input {
+      background: #FAFBFC;
+      color: #9598AB;
+    }
+  }
+}
+
+.statement-wrap.polkadot {
+  .statement-list {
+    li {
+      color: #9598AB;
+    }
+  }
+}
+
+.vote-selector.polkadot {
+  background: white;
+  .header {
+    span.nominator-number {
+      color: #9598AB !important;
+    }
+  }
+  .list {
+    div {
+      span {
+        color: #2C2C2C;
+      }
+    }
+  }
+}
+
+.validator-page.polkadot {
+  .info-top {
+    .display-name {
+      color: #191C1E;
+    }
+
+    .rank {
+      color: #E2318F;
+    }
+  }
+
+  .digest {
+    background: white;
+    box-shadow: unset;
+    border: 0.5px solid #EAECF6;
+    &>div {
+      &:first-child {
+        border-bottom: 0.5px solid #EAECF6;
+      }
+      div {
+        i {
+          color: #191C1E;
+        }
+      }
+    }
+  }
+  .bio {
+    .row {
+      span, i, a {
+        color: #191C1E;
+      }
+    }    
+  }
+
+  .bond-other-list {
+    >div {
+      border-bottom: 0.5px solid #EAECF6;
+
+      &:first-child {
+        border-top: 0.5px solid #EAECF6;
+      }
+      span {
+        color: #777A8C;
+      }
+    }    
+  }
+}
+
+.voted-card.polkadot {
+  border: 1px solid #EAECF6;
+}
+
+.validators-wrap.polkadot {
+  border: 1px solid #EAECF6;
+  border-radius: 8px;
+  .search-bar {
+    border-radius: 8px 8px 0 0;
+  }
+}
+
+.governance-page.polkadot {
+  .top dl dt {
+    color: #191C1E;
+  }
+  .top dl dd span {
+    color: #9598AB;
+  }
+  .tick-card {
+    border: 0.5px solid #EAECF6;
+  }
+  .referenda-card {
+    border: 0.5px solid #EAECF6;
+  }
+}

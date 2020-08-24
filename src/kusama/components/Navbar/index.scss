@@ -1,0 +1,28 @@
+.navbar {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    > div {
+        display: flex;
+        align-items: center;
+        padding: 3px;
+        border-radius: 19px;
+        border: solid 1px #ffffff2c;
+        background-color: black;
+        > a {
+            padding: 4px 20px;
+            font-family: 'PingFang SC';
+            font-size: 15px;
+            font-weight: normal;
+            line-height: 1.47;
+            letter-spacing: 0.3px;
+            text-decoration: none;
+            color: #9598AB;
+            &.selected {
+                border-radius: 19px;
+                background: #2C2C2C;
+                color: #ffffff;
+            }
+        }
+    }
+}

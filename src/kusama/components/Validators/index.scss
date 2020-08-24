@@ -1,0 +1,54 @@
+.voted-card {
+  background: white;
+  border-radius: 8px;
+  margin-top: 10px;
+
+  .card-title {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+    background: #FAFBFC;
+    border-radius: 8px 8px 0 0;
+    span {
+      font-size: 11px;
+      line-height: 13px;
+      color: #9598AB;
+    }
+  }
+
+  .placeholder {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 180px;
+    height: 380px;
+    span {
+      font-size: 11px;
+      line-height: 13px;
+      color: #C4C9D9;
+      margin-top: 10px;
+    }
+  }
+
+  .validator-list {
+    span {
+      font-size: 11px;
+      line-height: 13px;
+      color: #C4C9D9;
+    }
+
+    .not-elected {
+      background: #FAFBFC;
+      padding: 14px 17px;
+      p {
+        font-size: 11px;
+        line-height: 13px;
+        color: #9598AB;
+      }
+    }
+  }
+}

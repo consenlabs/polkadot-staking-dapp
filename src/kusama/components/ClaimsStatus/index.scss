@@ -1,0 +1,51 @@
+.claims-tx-status {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 40px 20px 20px 20px;
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 17px;
+    border-bottom: 0.5px dashed #eaecf6;
+    span {
+      margin-top: 17px;
+      font-size: 15px;
+      line-height: 11px;
+      letter-spacing: 0.2;
+      color: #191c1e;
+    }
+    i {
+      margin-top: 13px;
+      font-size: 13px;
+      font-style: normal;
+      line-height: 11px;
+      text-align: center;
+      letter-spacing: 0.2;
+      color: #9598AB;
+    }
+    img {
+      width: 58px;
+      height: 58px;
+    }
+  }
+  .address-label {
+    margin-top: 24px;
+    font-size: 13px;
+    line-height: 11px;
+    letter-spacing: 0.2;
+    color: #9598AB;
+  }
+  .address {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #191c1e;
+    word-wrap: break-word;
+  }
+}

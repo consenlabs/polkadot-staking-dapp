@@ -1,0 +1,20 @@
+.statement-wrap {
+  .title {
+    font-size: 13px;
+    line-height: 15px;
+    color: #9598AB;
+    margin-bottom: 12px;
+  }
+
+  .statement-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    li {
+      font-size: 13px;
+      line-height: 20px;
+      color: #FFFFFF;
+      padding: 8px 0;
+      list-style: unset;
+    }
+  }
+}

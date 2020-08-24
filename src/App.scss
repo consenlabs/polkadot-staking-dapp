@@ -1,0 +1,37 @@
+// rewrite toast
+#ct-container {
+  #ct-top {
+    #ct-top-left,
+    #ct-top-center,
+    #ct-top-right {
+      padding: 0px;
+      margin: 0px;
+    }
+    & > div {
+      word-wrap: break-word;
+      word-break: break-all;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 0 10px;
+      margin: 8px 20px;
+      padding-left: 12px !important;
+      &:last-child {
+        padding: 10px;
+        min-height: unset !important;
+        & > div {
+          margin-left: 12px !important;
+          h4 {
+            font-size: 15px;
+          }
+          div {
+            font-size: 13px;
+            margin-top: 2px;
+          }
+          h4 + div {
+            color: #9598AB;
+          }
+        }
+      }
+    }
+  }
+}

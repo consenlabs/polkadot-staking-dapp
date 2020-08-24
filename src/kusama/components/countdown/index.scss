@@ -1,0 +1,18 @@
+.countdown {
+  margin-top: 5px;
+  letter-spacing: 0.47619px;
+  i {
+    display: inline-block;
+    width: 23px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background: #ac4a48;
+    border-radius: 2px;
+    font-style: normal;
+  }
+
+  span {
+    margin: 0 4px;
+  }
+}

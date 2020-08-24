@@ -1,0 +1,42 @@
+.governance-page {
+  padding: 10px;
+  .top {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
+    dl {
+      dt {
+        color: white;
+        font-size: 15px;
+        line-height: 18px;
+      }
+
+      dd {
+        margin-top: 8px;
+        span {
+          font-size: 13px;
+          color: #FAFBFC;
+          opacity: 0.5;
+        }
+
+        .loading-account {
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          justify-content: center;
+          span {
+            margin-left: 4px;
+          }
+        }
+      }
+
+      &:last-child {
+        dt {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

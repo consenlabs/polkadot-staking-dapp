@@ -1,0 +1,12 @@
+FROM node:12.12.0-alpine as builder
+
+RUN apk add git jq --no-cache --update && \
+    rm -rf /var/cache/apk/*
+
+RUN mkdir /app && npm i -g yarn
+WORKDIR /app
+
+COPY package.json /app/
+RUN npm i -g yarn && yarn
+COPY ./ /app/
+CMD [ "yarn", "server" ]

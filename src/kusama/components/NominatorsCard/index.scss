@@ -1,0 +1,56 @@
+.vote-selector {
+  background: #2C2C2C;
+  padding: 20px 18px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 6px 6px 0 0;
+  z-index: 100;
+  
+  .to-top {
+    position: absolute;
+    top: -70px;
+  }
+
+  .header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    
+    span {
+      font-size: 11px;
+      line-height: 13px;
+      color: #9598AB;
+    }
+
+    .clear {
+      font-size: 12px;
+      line-height: 14px;
+      color: #098DE6;
+      margin-left: 6px;
+    }
+  }
+
+  .list {
+    max-height: 200px;
+    overflow-y: scroll;
+    margin-top: 10px;
+    >div {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 0;
+
+      span {
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}

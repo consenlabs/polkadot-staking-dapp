@@ -1,0 +1,72 @@
+
+.toolbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 200;
+  display: flex;
+  justify-content: center;
+  padding: 10px 15px;
+  background-color: rgba(25, 27, 49, 0.85);
+
+  .btn {
+    width: 100%;
+    flex: 1;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 8px;
+    background-color: #479FF4;
+    font-family: 'PingFang SC';
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    outline: none;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.disabled {
+      background: #EAECF6 !important;
+    }
+  }
+
+  .toolbar-row {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #2B2B2C;
+    padding: 10px;
+
+    a {
+      flex: 1;
+      height: 54px;
+      line-height: 54px;
+      box-sizing: border-box;
+      background: #2B2B2C;
+      font-size: 13px;
+      text-align: center;
+      color: #43454F;
+
+      img {
+        vertical-align: middle;
+      }
+
+      span {
+        vertical-align: middle;
+        padding-left: 6px;
+      }
+    }
+
+    .vertical-line {
+      height: 18px;
+      width: 1px;
+      background-color: #D2D4DD;
+    }
+  }
+}

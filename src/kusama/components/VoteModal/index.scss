@@ -1,0 +1,168 @@
+.modal-body {
+  .aye-or-nay {
+    padding: 0;
+
+    dl {
+      padding: 15px 10px 15px 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      &:first-child {
+        border-bottom: 0.5px solid #E7E7EA;
+      }
+
+      dt {
+        img {
+          margin-right: 6px;
+          position: relative;
+          top: -1px;
+        }
+        span {
+          font-size: 15px;
+          line-height: 18px;
+          color: #191C1E;
+        }
+      }
+    }
+  }
+
+  .vote-balance {
+    padding: 10px 0;
+    background: #F7F8F9;
+    .vote-weight {
+      font-size: 35px;
+      text-align: center;
+      color: #43454F;
+      font-weight: bold;
+      margin-top: 0;
+    }
+
+    .vote-weight-calc {
+      font-size: 14px;
+      color: #949EA6;
+      margin-bottom: 20px;
+    }
+
+    .balance-input {
+      background: white;
+      width: 100%;
+      height: 55px;
+      border-radius: 8px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+      padding-right: 10px;
+      box-sizing: border-box;
+
+      input {
+        flex: 1;
+        height: 100%;
+        font-size: 19px;
+        padding-left: 10px;
+        box-sizing: border-box;
+        border: 0;
+        border-radius: 8px;
+        outline: none;
+
+        &::placeholder {
+          color: #949EA6;
+          font-size: 14px;
+        }
+      }
+
+      span {
+        font-size: 14px;
+        color: #949EA6;
+      }
+    }
+
+    .convition {
+      margin-top: 10px;
+      background: white;
+      width: 100%;
+      height: 55px;
+      border-radius: 8px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      box-sizing: border-box;
+
+      span {
+        font-size: 15px;
+        line-height: 13px;
+        color: #43454F;
+      }
+
+      div {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        dl {
+          dd {
+            text-align: right;
+            font-size: 11px;
+            line-height: 17px;
+            color: #9598AB;
+          }
+        }
+      }
+    }
+
+    .vote-tip {
+      font-size: 13px;
+      line-height: 19px;
+      color: #949EA6;
+    }
+  }
+
+  .convition-list {
+    padding: 0;
+    dl {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 20px 15px;
+      border-bottom: 0.5px solid #E7E7EA;
+      box-sizing: border-box;
+      &:last-child {
+        border-bottom: 0;
+      }
+
+      dt {
+        font-size: 13px;
+        color: #43454F;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          margin-right: 8px;
+        }
+      }
+
+      dd {
+        font-size: 11px;
+        line-height: 13px;
+        color: #9598AB;
+      }
+    }
+  }
+
+  .toolbar {
+    background: #F7F8F9;
+
+    .toolbar-row {
+      background: #F7F8F9;
+    }
+  }
+}

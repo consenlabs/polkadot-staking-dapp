@@ -1,0 +1,28 @@
+.modal-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  padding: 0 10px 10px 10px;
+  background-color: #f7f8f9;
+  border-radius: 8px 8px 0 0;
+  .modal-header {
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    img {
+      position: absolute;
+      left: 10px;
+    }
+    strong {
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.166667px;
+      color: #9598AB;
+    }
+  }
+}
