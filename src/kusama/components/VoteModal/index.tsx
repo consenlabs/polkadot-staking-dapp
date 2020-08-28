@@ -40,25 +40,29 @@ export default ({ isOpen, onClose, votingItem, account }) => {
     >
       <div className="modal-body" style={{ paddingBottom }}>
         <div className="modal-header">
-          <img src={step === 0 ? icons.CANCEL : icons.LEFT} onClick={() => {
-            switch (step) {
-              case 0:
-                onClose()
-                break;
-              case 1:
-                setStep(0)
-                setTitle(t('vote'))
-                break;
-              case 2:
-                setStep(1)
-                setTitle(t('vote_weight'))
-                break;
-              default:
-                break;
-            }
-          }} />
+          <img
+            src={step === 0 ? icons.CANCEL : icons.LEFT}
+            onClick={() => {
+              switch (step) {
+                case 0:
+                  onClose()
+                  break;
+                case 1:
+                  setStep(0)
+                  setTitle(t('vote'))
+                  break;
+                case 2:
+                  setStep(1)
+                  setTitle(t('vote_weight'))
+                  break;
+                default:
+                  break;
+              }
+            }}
+            alt=""
+          />
           <span>{title}</span>
-          <img src={icons.CANCEL} style={{ visibility: 'hidden' }} />
+          <img src={icons.CANCEL} style={{ visibility: 'hidden' }} alt="" />
         </div>
         {step === 0 && (
           <Option
