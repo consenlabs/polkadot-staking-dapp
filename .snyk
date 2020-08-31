@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > @babel/generator > lodash':
+        patched: '2020-08-28T04:18:44.558Z'
+    - '@babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2020-08-28T04:18:44.558Z'
+    - react-scripts > @babel/core > lodash:
+        patched: '2020-08-28T04:18:44.558Z'
+    - react-scripts > html-webpack-plugin > lodash:
+        patched: '2020-08-28T04:18:44.558Z'
+    - '@babel/core > @babel/generator > @babel/types > lodash':
+        patched: '2020-08-28T04:18:44.558Z'
+    - react-scripts > @babel/core > @babel/generator > lodash:
+        patched: '2020-08-28T04:18:44.558Z'
+    - react-scripts > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2020-08-28T04:18:44.558Z'
+    - react-scripts > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2020-08-28T04:18:44.558Z'
+    - '@babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2020-08-28T04:18:44.558Z'
+    - react-scripts > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2020-08-28T04:18:44.558Z'
+    - '@babel/core > lodash':
+        patched: '2020-08-28T04:18:44.558Z'
